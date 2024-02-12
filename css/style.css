@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+    max-width: 60.0rem;
+    position: relative;
+    width: 58.0rem;
+
+}
+.headerApp{
+    display: flex;
+    justify-content: center;    
+}
+
+input{
+    padding: 1rem;
+    border: 0.1rem solid #000;
+    
+    outline: none;
+    margin: 0 0 0 1rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    border: none;
+
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: #28a6d0;
+    color: #000;
+}
+
+.tableGit{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+  
+}
+thead{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #4df0f0;
+    color: #0a0a0a;
+    margin-top: 2rem;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+}
+
+thead tr td {
+    display: table;
+    margin-left: 9rem;
+}
+tbody{
+    margin-top: 1rem;
+}
+.userData img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.userData {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
